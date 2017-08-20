@@ -53,10 +53,14 @@ function Title(text){
 function VideoLink(text, id){
   var link = document.createElement('div');
   link.classList.add('vid-link');
-  link.innerText = text;
-  link.setAttribute('data-id', id);
 
+  var name = document.createElement('div');
+  name.classList.add('name');
+  name.innerText = text;
+
+  link.setAttribute('data-id', id);
   link.addEventListener('click', selectVideo);
+  link.appendChild(name);
   return link;
 }
 

@@ -30,6 +30,7 @@ body{
   cursor: pointer;
   background-color: #222;
   border-bottom: 1px solid #111;
+  overflow: hidden;
 }
 .vid-link:hover{
   background-color: #1b1b1b;
@@ -37,6 +38,11 @@ body{
 .vid-link.current{
   color: orange;
   border-left: 3px solid orange;
+}
+.vid-link .name {
+  max-width: 80%;
+  line-height: 1.2rem;
+  float: left;
 }
 .title{
   padding: 16px 20px;
