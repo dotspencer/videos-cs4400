@@ -77,56 +77,485 @@
     "title": "Machine Model: Instruction Set Architecture",
     "videos": [
       {
-        "name": "Assembly and machine code",
+        "name": "1. Assembly and machine code",
         "id": "MBYxnzE0WZk"
       },
       {
-        "name": "History",
+        "name": "2. History",
         "id": "uF7U2KNE2YE"
       },
       {
-        "name": "Machine model",
+        "name": "3. Machine model",
         "id": "U6Hj75jyZM4"
       },
       {
-        "name": "Compile, assemble, disassemble",
+        "name": "4. Compile, assemble, disassemble",
         "id": "chl9sPbAi7w"
       },
       {
-        "name": "Link",
+        "name": "5. Link",
         "id": "9ivRoX-458I"
       },
       {
-        "name": "Operand and register sizes",
+        "name": "6. Operand and register sizes",
         "id": "-oACD9ucgxY"
       },
       {
-        "name": "Operand forms",
+        "name": "7. Operand forms",
         "id": "DCfciMwHU7k"
       },
       {
-        "name": "Practice decoding operands",
+        "name": "8. Practice decoding operands",
         "id": "Wo_QXCcOnz4"
       },
       {
-        "name": "Move instructions",
+        "name": "9. Move instructions",
         "id": "fRfb1DezDf8"
       },
       {
-        "name": "Example using move instructions",
+        "name": "0. Example using move instructions",
         "id": "oQ_afThEBoE"
       },
       {
-        "name": "Arithmetic instructions",
+        "name": "1. Arithmetic instructions",
         "id": "r7ebrQzqPRc"
       },
       {
-        "name": "Example using arithmetic instructions",
+        "name": "2. Example using arithmetic instructions",
         "id": "nIIXJqPeDJk"
       },
       {
-        "name": "Reading ISA manuals",
+        "name": "3. Reading ISA manuals",
         "id": "oe7tDlBaYcw"
+      }
+    ]
+  },
+  {
+    "title": "Representing Control Flow",
+    "videos": [
+      {
+        "name": "1. Condition codes",
+        "id": "cESKoKRiLWk"
+      },
+      {
+        "name": "2. Interpreting condition codes",
+        "id": "hjxVpk3TciM"
+      },
+      {
+        "name": "3. setcc, cmpx, and testx",
+        "id": "1VQUYvvgMWs"
+      },
+      {
+        "name": "4. Extended example for setcc",
+        "id": "Dp0a6Yls6uc"
+      },
+      {
+        "name": "5. cmovccx",
+        "id": "J9JVP0j1Ot4"
+      },
+      {
+        "name": "6. Jumps via jcc and jmp",
+        "id": "0WmyNQSKJHY"
+      },
+      {
+        "name": "7. Alternative branch patterns",
+        "id": "Ww5NYhuoeeI"
+      },
+      {
+        "name": "8. Additional branch example",
+        "id": "k4pcl9aD_VA"
+      },
+      {
+        "name": "9. do–while loops",
+        "id": "K-Y8MsOPnLI"
+      },
+      {
+        "name": "0. while loops",
+        "id": "JVQ8_p8AU6k"
+      },
+      {
+        "name": "1. for loops",
+        "id": "3x9C-nOYOQQ"
+      },
+      {
+        "name": "2. Another loop exercise",
+        "id": "AHEXeWkqW3c"
+      },
+      {
+        "name": "3. switch and jump tables",
+        "id": "dp1PtwxGnbY"
+      },
+      {
+        "name": "4. Compiler-generated jump tables",
+        "id": "alY5VqxLDCc"
+      }
+    ]
+  },
+  {
+    "title": "Representing Procedures",
+    "videos": [
+      {
+        "name": "1. Intro",
+        "id": "oiUZltIFDlk"
+      },
+      {
+        "name": "2. C stack",
+        "id": "yWTasUpmQj0"
+      },
+      {
+        "name": "3. Exposing the stack in C and gdb",
+        "id": "CJ6J2T9VvSQ"
+      },
+      {
+        "name": "4. Stack frames support recursion",
+        "id": "ueBmlUT1NXM"
+      },
+      {
+        "name": "5. callx and retx",
+        "id": "NLS_1gUcIz4"
+      },
+      {
+        "name": "6. Arguments and result",
+        "id": "i2lvXLWboug"
+      },
+      {
+        "name": "7. Preserved and temporary registers",
+        "id": "eosj_KLXTdk"
+      },
+      {
+        "name": "8. ABIs",
+        "id": "7p9EhGKFvyM"
+      },
+      {
+        "name": "9. Debugging and stack frames",
+        "id": "EXxnDUDvhe0"
+      },
+      {
+        "name": "0. Using a frame pointer",
+        "id": "JEiVz1WKmIo"
+      },
+      {
+        "name": "1. Stack layout summary",
+        "id": "vEqt3TTQzrM"
+      }
+    ]
+  },
+  {
+    "title": "Arrays",
+    "videos": [
+      {
+        "name": "1. Arrays and pointers",
+        "id": "Y_1cvClvPFY"
+      },
+      {
+        "name": "2. Arrays as function arguments",
+        "id": "p4y4RLtx6DU"
+      },
+      {
+        "name": "3. typedef",
+        "id": "oxOcGFZNWEk"
+      },
+      {
+        "name": "4. Machine code examples",
+        "id": "EAQm2CKrWdU"
+      },
+      {
+        "name": "5. Arrays of typedefs and arrays",
+        "id": "gCQN2FI_V8M"
+      },
+      {
+        "name": "6. 2-Dimensional arrays",
+        "id": "jAU4Hsf_obM"
+      },
+      {
+        "name": "7. Machine code for 2-D array access",
+        "id": "tOixS9yQZlc"
+      },
+      {
+        "name": "8. Omitting dimensions for a 2-D array argument",
+        "id": "YE9Htif74Iw"
+      },
+      {
+        "name": "9. Exercise: inferring array dimensions",
+        "id": "EEm5SX8pkPA"
+      }
+    ]
+  },
+  {
+    "title": "Structs",
+    "videos": [
+      {
+        "name": "1. Declaring structs",
+        "id": "dufLuQiLu58"
+      },
+      {
+        "name": "2. Accessing struct fields",
+        "id": "D2Xz8bJTVPY"
+      },
+      {
+        "name": "3. Layout",
+        "id": "J_XsqKKSJTQ"
+      },
+      {
+        "name": "5. More on alignment",
+        "id": "wazWr3mNKHU"
+      },
+      {
+        "name": "6. Linked-list example",
+        "id": "yxdMGZaN1qI"
+      },
+      {
+        "name": "7. Another machine-code example",
+        "id": "hAiC0LHDBJ8"
+      },
+      {
+        "name": "8. Unions",
+        "id": "M2JkyQsJRt8"
+      },
+      {
+        "name": "9. #pragma pack",
+        "id": "CMFA5S1PafE"
+      }
+    ]
+  },
+  {
+    "title": "Optimization",
+    "videos": [
+      {
+        "name": "1. Overview",
+        "id": "E7TzcC-kWm4"
+      },
+      {
+        "name": "2. Generally useful optimizations",
+        "id": "Q-fB5AmoGq4"
+      },
+      {
+        "name": "3. Procedure call as an optimization blocker",
+        "id": "IFedIn7P3nw"
+      },
+      {
+        "name": "4. Aliasing as an optimization blocker",
+        "id": "jMW9OOAqUTw"
+      },
+      {
+        "name": "5. gcc and strlen",
+        "id": "yfAP0BGWQqQ"
+      },
+      {
+        "name": "6. Vector example",
+        "id": "1ktoBrHl748"
+      }
+    ]
+  },
+  {
+    "title": "Optimization 2",
+    "videos": [
+      {
+        "name": "1. Arithmetic instructions",
+        "id": "_7i-tAQnfak"
+      },
+      {
+        "name": "2. Vector operations",
+        "id": "Tk9HXd_gTXI"
+      },
+      {
+        "name": "3. History of x87 through AVX2",
+        "id": "N8Vt6iKZlIg"
+      },
+      {
+        "name": "7. Superscalar processors",
+        "id": "-aWwHV4A6rA"
+      },
+      {
+        "name": "8. Pipelined execution",
+        "id": "XCrozavqgUk"
+      },
+      {
+        "name": "9. Loop unrolling",
+        "id": "lXBJeSfAPww"
+      },
+      {
+        "name": "0. Reassociation",
+        "id": "VOgnSeANbbY"
+      },
+      {
+        "name": "1. Throughput bounds",
+        "id": "Y9KKOhXOc8w"
+      },
+      {
+        "name": "2. Unrolling more",
+        "id": "tNm1LDSrhDc"
+      },
+      {
+        "name": "3. Branch prediction",
+        "id": "gyAYXnxGxs8"
+      }
+    ]
+  },
+  {
+    "title": "Cache",
+    "videos": [
+      {
+        "name": "1. Overview",
+        "id": "HGiMi_m98ek"
+      },
+      {
+        "name": "2. Random vs. sequential",
+        "id": "2QeNJuCclGw"
+      },
+      {
+        "name": "3. Temporal locality",
+        "id": "5EBaZ0iYr3w"
+      },
+      {
+        "name": "4. Spatial locality",
+        "id": "cc6GI6b0WGI"
+      },
+      {
+        "name": "5. The memory mountain",
+        "id": "2S-Or1HqtjE"
+      },
+      {
+        "name": "6. Cache lookup",
+        "id": "WR7uv549GiE"
+      },
+      {
+        "name": "7. Lookup examples",
+        "id": "Yw0xtpjqPuo"
+      },
+      {
+        "name": "8. Replacement and writes",
+        "id": "qLiTJGHzq0U"
+      },
+      {
+        "name": "9. Predicting cache misses",
+        "id": "DKuYGIFzEFE"
+      },
+      {
+        "name": "0. Reducing cache misses",
+        "id": "QGbLVIaKHKg"
+      },
+      {
+        "name": "1. Matrix multiplication",
+        "id": "UAX5sL6DEEU"
+      },
+      {
+        "name": "2. Blocking",
+        "id": "WMXC72A4nmA"
+      }
+    ]
+  },
+  {
+    "title": "Linking",
+    "videos": [
+      {
+        "name": "1. Overview",
+        "id": "tlYjotGNG3M"
+      },
+      {
+        "name": "2. Declarations and definitions",
+        "id": "uSr-V41lNlQ"
+      },
+      {
+        "name": "3. Weak and strong symbols",
+        "id": "Jx5uWMYsgnA"
+      },
+      {
+        "name": "4. #include",
+        "id": "t_Z0ZQvks0Q"
+      },
+      {
+        "name": "5. static declarations",
+        "id": "RPJOfIYrK1g"
+      },
+      {
+        "name": "6. Static libraries",
+        "id": "gJhEn7AnB18"
+      },
+      {
+        "name": "7. Using static libraries",
+        "id": "svh6b0TPAXA"
+      },
+      {
+        "name": "8. Shared libraries",
+        "id": "uxodjgW5qAc"
+      },
+      {
+        "name": "9. Installed libraries",
+        "id": "VrE7vXrq_M4"
+      },
+      {
+        "name": "0. dlopen",
+        "id": "WiSgfVe46AM"
+      },
+      {
+        "name": "1. Interposing via cpp",
+        "id": "evP2DbfXKlE"
+      },
+      {
+        "name": "2. Interposing via ld",
+        "id": "OgRXCwntiqE"
+      },
+      {
+        "name": "3. Interposing via LD_PRELOAD",
+        "id": "ScEmlqWugk8"
+      }
+    ]
+  },
+  {
+    "title": "ELF",
+    "videos": [
+      {
+        "name": "1. Overview",
+        "id": "BXjOC945w4w"
+      },
+      {
+        "name": "2. Segments, sections, and headers",
+        "id": "5-d8snK8RaA"
+      },
+      {
+        "name": "3. Using readelf",
+        "id": "enQHBGns7aA"
+      },
+      {
+        "name": "4. Reading ELF programmatically",
+        "id": "N1bT_DdgZfU"
+      },
+      {
+        "name": "5. Offsets vs. addresses",
+        "id": "2CmAMD4l_aQ"
+      },
+      {
+        "name": "6. Objects and linking",
+        "id": "JmMbNATm8Gs"
+      },
+      {
+        "name": "7. Printing section names",
+        "id": "Vx0qeTJgsTQ"
+      },
+      {
+        "name": "8. Position-independent code",
+        "id": "H4QutJQjuDE"
+      },
+      {
+        "name": "9. Implementing PIC variables",
+        "id": "DdTtuB1Itmc"
+      },
+      {
+        "name": "0. Implementing PIC functions",
+        "id": "RJ7duJg6VGs"
+      },
+      {
+        "name": "1. Inspecting the symbol table",
+        "id": "qsZc8Y1HCmw"
+      },
+      {
+        "name": "2. Inspecting relocations",
+        "id": "6ssYRGxWaSQ"
+      },
+      {
+        "name": "3. Machine code section",
+        "id": "fqEx3rFecTE"
       }
     ]
   }

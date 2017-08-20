@@ -14,12 +14,11 @@ links.map(function(link){
   if(/youtube/.test(link.href)){
     var name = link.innerText;
 
-    // Only use video title if video link starts with abbreviated section title
+    // Only use title if video link starts with abbreviated section title
     try {
-      name = link.innerText.match(/: (.*)/)[1];
-    } catch (e) {}
+      name = name.replace(/^.*(\d+): (.*)/, "\$1. \$2");
+    } catch(e){};
 
-    name = name.replace(/^(\d+)/, "\$1.");
     var id = link.href.match(/v=(.*)/)[1];
 
     section.videos.push({
