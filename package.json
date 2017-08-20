@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pack": "./node_modules/.bin/webpack",
-    "dev": "./node_modules/.bin/webpack-dev-server"
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",

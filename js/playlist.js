@@ -18,12 +18,11 @@ var list = {
       group.appendChild(title);
 
       // Create all video links
-      for (var j = 0; j < vids.length; j++) {
-        var text = "Part: " + (j + 1);
-        var id = vids[j];
-        var link = VideoLink(text, id);
+
+      vids.map(function(vid){
+        var link = VideoLink(vid.name, vid.id);
         group.appendChild(link);
-      }
+      });
       playlist.appendChild(group);
     }
   },
@@ -54,10 +53,14 @@ function Title(text){
 function VideoLink(text, id){
   var link = document.createElement('div');
   link.classList.add('vid-link');
-  link.innerText = text;
-  link.setAttribute('data-id', id);
 
+  var name = document.createElement('div');
+  name.classList.add('name');
+  name.innerText = text;
+
+  link.setAttribute('data-id', id);
   link.addEventListener('click', selectVideo);
+  link.appendChild(name);
   return link;
 }
 

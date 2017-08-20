@@ -26,7 +26,7 @@ function requestDurationGroup(requestGroup){
   p += "&part=contentDetails";
   var url = "https://www.googleapis.com/youtube/v3/videos?id=";
 
-  // Construt request url from each video id
+  // Construct request url from each video id
   for (var i = 0; i < requestGroup.length; i++) {
     url += requestGroup[i] + ",";
   }
@@ -66,7 +66,7 @@ function getAllVideos(data){
   var videos = [];
   for (var i = 0; i < data.length; i++) {
     for (var j = 0; j < data[i].videos.length; j++) {
-      videos.push(data[i].videos[j]);
+      videos.push(data[i].videos[j].id);
     }
   }
   return videos;
@@ -92,7 +92,7 @@ window.onYouTubeIframeAPIReady = () => {
   el.player = new YT.Player('player', {
     height: '390',
     width: '640',
-    videoId: el.data[0].videos[0],
+    videoId: el.data[0].videos[0].id,
     playerVars: {
       // modestbranding: 1,
       rel: 0 // Related videos off

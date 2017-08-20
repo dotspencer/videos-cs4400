@@ -1,208 +1,1182 @@
 [
   {
-    "title": "Introduction to Computer Organization",
+    "title": "Introduction",
     "videos": [
-      "7UzX8c6kLAk",
-      "AOfpC46Q2RI"
+      {
+        "name": "Command-line arguments",
+        "id": "XcHGLiUU5GM"
+      }
     ]
   },
   {
-    "title": "Measuring Performance",
+    "title": "C, Numbers, and Data Representation",
     "videos": [
-      "3xmSNPAOaHU",
-      "2cg1sm21LOU",
-      "u-hkYqIIYQY",
-      "7tmYwN8Gypo"
+      {
+        "name": "1. Compiling and running",
+        "id": "0UDUEWmHmTg"
+      },
+      {
+        "name": "2. Addresses",
+        "id": "6F6ko6qqU08"
+      },
+      {
+        "name": "3. Pointers",
+        "id": "ml77nxS62_I"
+      },
+      {
+        "name": "4. Arrays",
+        "id": "Ccz7W3Ou2ns"
+      },
+      {
+        "name": "5. Strings",
+        "id": "AZbcSCUK1iI"
+      },
+      {
+        "name": "6. Pointer arithmetic",
+        "id": "uxV6Qq456oU"
+      },
+      {
+        "name": "7. for loops",
+        "id": "10O1kdiMaLo"
+      },
+      {
+        "name": "1. Integers",
+        "id": "X-gi0L5TpXc"
+      },
+      {
+        "name": "2. Logical and bitwise operations",
+        "id": "2Qb6pVHZP3M"
+      },
+      {
+        "name": "3. Overflow and coercions",
+        "id": "EI5PjMHzONM"
+      },
+      {
+        "name": "4. Floating point",
+        "id": "9P1O9uT-jfU"
+      },
+      {
+        "name": "5. Floating-point decoding examples",
+        "id": "YBSRTwtyuks"
+      },
+      {
+        "name": "6. Casts and strings",
+        "id": "sSFoHdJNtPo"
+      },
+      {
+        "name": "7. Integer sizes in practice",
+        "id": "jIyN05sGEPk"
+      },
+      {
+        "name": "8. Number and pointer pitfalls",
+        "id": "oSLvPcexgxc"
+      }
     ]
   },
   {
-    "title": "MIPS ISA",
+    "title": "Machine Model: Instruction Set Architecture",
     "videos": [
-      "0Df3NPbsJyI",
-      "pBEdxamiCIA",
-      "76BZcI5a9Ms"
+      {
+        "name": "1. Assembly and machine code",
+        "id": "MBYxnzE0WZk"
+      },
+      {
+        "name": "2. History",
+        "id": "uF7U2KNE2YE"
+      },
+      {
+        "name": "3. Machine model",
+        "id": "U6Hj75jyZM4"
+      },
+      {
+        "name": "4. Compile, assemble, disassemble",
+        "id": "chl9sPbAi7w"
+      },
+      {
+        "name": "5. Link",
+        "id": "9ivRoX-458I"
+      },
+      {
+        "name": "6. Operand and register sizes",
+        "id": "-oACD9ucgxY"
+      },
+      {
+        "name": "7. Operand forms",
+        "id": "DCfciMwHU7k"
+      },
+      {
+        "name": "8. Practice decoding operands",
+        "id": "Wo_QXCcOnz4"
+      },
+      {
+        "name": "9. Move instructions",
+        "id": "fRfb1DezDf8"
+      },
+      {
+        "name": "0. Example using move instructions",
+        "id": "oQ_afThEBoE"
+      },
+      {
+        "name": "1. Arithmetic instructions",
+        "id": "r7ebrQzqPRc"
+      },
+      {
+        "name": "2. Example using arithmetic instructions",
+        "id": "nIIXJqPeDJk"
+      },
+      {
+        "name": "3. Reading ISA manuals",
+        "id": "oe7tDlBaYcw"
+      }
     ]
   },
   {
-    "title": "More MIPS ISA",
+    "title": "Representing Control Flow",
     "videos": [
-      "ajucTXjhWeU",
-      "e5leivqTYQ8"
+      {
+        "name": "1. Condition codes",
+        "id": "cESKoKRiLWk"
+      },
+      {
+        "name": "2. Interpreting condition codes",
+        "id": "hjxVpk3TciM"
+      },
+      {
+        "name": "3. setcc, cmpx, and testx",
+        "id": "1VQUYvvgMWs"
+      },
+      {
+        "name": "4. Extended example for setcc",
+        "id": "Dp0a6Yls6uc"
+      },
+      {
+        "name": "5. cmovccx",
+        "id": "J9JVP0j1Ot4"
+      },
+      {
+        "name": "6. Jumps via jcc and jmp",
+        "id": "0WmyNQSKJHY"
+      },
+      {
+        "name": "7. Alternative branch patterns",
+        "id": "Ww5NYhuoeeI"
+      },
+      {
+        "name": "8. Additional branch example",
+        "id": "k4pcl9aD_VA"
+      },
+      {
+        "name": "9. do–while loops",
+        "id": "K-Y8MsOPnLI"
+      },
+      {
+        "name": "0. while loops",
+        "id": "JVQ8_p8AU6k"
+      },
+      {
+        "name": "1. for loops",
+        "id": "3x9C-nOYOQQ"
+      },
+      {
+        "name": "2. Another loop exercise",
+        "id": "AHEXeWkqW3c"
+      },
+      {
+        "name": "3. switch and jump tables",
+        "id": "dp1PtwxGnbY"
+      },
+      {
+        "name": "4. Compiler-generated jump tables",
+        "id": "alY5VqxLDCc"
+      }
     ]
   },
   {
-    "title": "Procedure Calls",
+    "title": "Representing Procedures",
     "videos": [
-      "TObm9XQB3VI",
-      "yt8m2yW1mbk",
-      "BOz_Dhj9QBU"
+      {
+        "name": "1. Intro",
+        "id": "oiUZltIFDlk"
+      },
+      {
+        "name": "2. C stack",
+        "id": "yWTasUpmQj0"
+      },
+      {
+        "name": "3. Exposing the stack in C and gdb",
+        "id": "CJ6J2T9VvSQ"
+      },
+      {
+        "name": "4. Stack frames support recursion",
+        "id": "ueBmlUT1NXM"
+      },
+      {
+        "name": "5. callx and retx",
+        "id": "NLS_1gUcIz4"
+      },
+      {
+        "name": "6. Arguments and result",
+        "id": "i2lvXLWboug"
+      },
+      {
+        "name": "7. Preserved and temporary registers",
+        "id": "eosj_KLXTdk"
+      },
+      {
+        "name": "8. ABIs",
+        "id": "7p9EhGKFvyM"
+      },
+      {
+        "name": "9. Debugging and stack frames",
+        "id": "EXxnDUDvhe0"
+      },
+      {
+        "name": "0. Using a frame pointer",
+        "id": "JEiVz1WKmIo"
+      },
+      {
+        "name": "1. Stack layout summary",
+        "id": "vEqt3TTQzrM"
+      }
     ]
   },
   {
-    "title": "Assembly Programs",
+    "title": "Arrays",
     "videos": [
-      "o0LAqNeCaEM",
-      "639pb8cr4fc",
-      "qMq7DlWLucY"
+      {
+        "name": "1. Arrays and pointers",
+        "id": "Y_1cvClvPFY"
+      },
+      {
+        "name": "2. Arrays as function arguments",
+        "id": "p4y4RLtx6DU"
+      },
+      {
+        "name": "3. typedef",
+        "id": "oxOcGFZNWEk"
+      },
+      {
+        "name": "4. Machine code examples",
+        "id": "EAQm2CKrWdU"
+      },
+      {
+        "name": "5. Arrays of typedefs and arrays",
+        "id": "gCQN2FI_V8M"
+      },
+      {
+        "name": "6. 2-Dimensional arrays",
+        "id": "jAU4Hsf_obM"
+      },
+      {
+        "name": "7. Machine code for 2-D array access",
+        "id": "tOixS9yQZlc"
+      },
+      {
+        "name": "8. Omitting dimensions for a 2-D array argument",
+        "id": "YE9Htif74Iw"
+      },
+      {
+        "name": "9. Exercise: inferring array dimensions",
+        "id": "EEm5SX8pkPA"
+      }
     ]
   },
   {
-    "title": "MIPS, Number Systems",
+    "title": "Structs",
     "videos": [
-      "i8OYIAQiYF8",
-      "YtI7EsWdDRM",
-      "HVMzXOHtb-E"
+      {
+        "name": "1. Declaring structs",
+        "id": "dufLuQiLu58"
+      },
+      {
+        "name": "2. Accessing struct fields",
+        "id": "D2Xz8bJTVPY"
+      },
+      {
+        "name": "3. Layout",
+        "id": "J_XsqKKSJTQ"
+      },
+      {
+        "name": "5. More on alignment",
+        "id": "wazWr3mNKHU"
+      },
+      {
+        "name": "6. Linked-list example",
+        "id": "yxdMGZaN1qI"
+      },
+      {
+        "name": "7. Another machine-code example",
+        "id": "hAiC0LHDBJ8"
+      },
+      {
+        "name": "8. Unions",
+        "id": "M2JkyQsJRt8"
+      },
+      {
+        "name": "9. #pragma pack",
+        "id": "CMFA5S1PafE"
+      }
     ]
   },
   {
-    "title": "Addition, Multiplication, Division",
+    "title": "Optimization",
     "videos": [
-      "kKIcQ1xn3PQ",
-      "z6uRKRg6iKo",
-      "QML7h3PNRWc",
-      "lK4-TNdOpYo",
-      "gDrblCR24G4",
-      "FydYZq924cM"
+      {
+        "name": "1. Overview",
+        "id": "E7TzcC-kWm4"
+      },
+      {
+        "name": "2. Generally useful optimizations",
+        "id": "Q-fB5AmoGq4"
+      },
+      {
+        "name": "3. Procedure call as an optimization blocker",
+        "id": "IFedIn7P3nw"
+      },
+      {
+        "name": "4. Aliasing as an optimization blocker",
+        "id": "jMW9OOAqUTw"
+      },
+      {
+        "name": "5. gcc and strlen",
+        "id": "yfAP0BGWQqQ"
+      },
+      {
+        "name": "6. Vector example",
+        "id": "1ktoBrHl748"
+      }
     ]
   },
   {
-    "title": "Floating Point Representations & Operations",
+    "title": "Optimization 2",
     "videos": [
-      "gAVVOGuoZko",
-      "Fyyxs_5Gcm8"
+      {
+        "name": "1. Arithmetic instructions",
+        "id": "_7i-tAQnfak"
+      },
+      {
+        "name": "2. Vector operations",
+        "id": "Tk9HXd_gTXI"
+      },
+      {
+        "name": "3. History of x87 through AVX2",
+        "id": "N8Vt6iKZlIg"
+      },
+      {
+        "name": "7. Superscalar processors",
+        "id": "-aWwHV4A6rA"
+      },
+      {
+        "name": "8. Pipelined execution",
+        "id": "XCrozavqgUk"
+      },
+      {
+        "name": "9. Loop unrolling",
+        "id": "lXBJeSfAPww"
+      },
+      {
+        "name": "0. Reassociation",
+        "id": "VOgnSeANbbY"
+      },
+      {
+        "name": "1. Throughput bounds",
+        "id": "Y9KKOhXOc8w"
+      },
+      {
+        "name": "2. Unrolling more",
+        "id": "tNm1LDSrhDc"
+      },
+      {
+        "name": "3. Branch prediction",
+        "id": "gyAYXnxGxs8"
+      }
     ]
   },
   {
-    "title": "Floating Point, Digital Design",
+    "title": "Cache",
     "videos": [
-      "Numrr36Oq3c",
-      "TjEmbrF7YI4",
-      "gvJCb0FL9GI",
-      "qrjTO_ydTpw"
+      {
+        "name": "1. Overview",
+        "id": "HGiMi_m98ek"
+      },
+      {
+        "name": "2. Random vs. sequential",
+        "id": "2QeNJuCclGw"
+      },
+      {
+        "name": "3. Temporal locality",
+        "id": "5EBaZ0iYr3w"
+      },
+      {
+        "name": "4. Spatial locality",
+        "id": "cc6GI6b0WGI"
+      },
+      {
+        "name": "5. The memory mountain",
+        "id": "2S-Or1HqtjE"
+      },
+      {
+        "name": "6. Cache lookup",
+        "id": "WR7uv549GiE"
+      },
+      {
+        "name": "7. Lookup examples",
+        "id": "Yw0xtpjqPuo"
+      },
+      {
+        "name": "8. Replacement and writes",
+        "id": "qLiTJGHzq0U"
+      },
+      {
+        "name": "9. Predicting cache misses",
+        "id": "DKuYGIFzEFE"
+      },
+      {
+        "name": "0. Reducing cache misses",
+        "id": "QGbLVIaKHKg"
+      },
+      {
+        "name": "1. Matrix multiplication",
+        "id": "UAX5sL6DEEU"
+      },
+      {
+        "name": "2. Blocking",
+        "id": "WMXC72A4nmA"
+      }
     ]
   },
   {
-    "title": "Hardware for Arithmetic",
+    "title": "Linking",
     "videos": [
-      "3z668Gf2Qms",
-      "moGVfZJ31EQ",
-      "iTkFDtTHNdw"
+      {
+        "name": "1. Overview",
+        "id": "tlYjotGNG3M"
+      },
+      {
+        "name": "2. Declarations and definitions",
+        "id": "uSr-V41lNlQ"
+      },
+      {
+        "name": "3. Weak and strong symbols",
+        "id": "Jx5uWMYsgnA"
+      },
+      {
+        "name": "4. #include",
+        "id": "t_Z0ZQvks0Q"
+      },
+      {
+        "name": "5. static declarations",
+        "id": "RPJOfIYrK1g"
+      },
+      {
+        "name": "6. Static libraries",
+        "id": "gJhEn7AnB18"
+      },
+      {
+        "name": "7. Using static libraries",
+        "id": "svh6b0TPAXA"
+      },
+      {
+        "name": "8. Shared libraries",
+        "id": "uxodjgW5qAc"
+      },
+      {
+        "name": "9. Installed libraries",
+        "id": "VrE7vXrq_M4"
+      },
+      {
+        "name": "0. dlopen",
+        "id": "WiSgfVe46AM"
+      },
+      {
+        "name": "1. Interposing via cpp",
+        "id": "evP2DbfXKlE"
+      },
+      {
+        "name": "2. Interposing via ld",
+        "id": "OgRXCwntiqE"
+      },
+      {
+        "name": "3. Interposing via LD_PRELOAD",
+        "id": "ScEmlqWugk8"
+      }
     ]
   },
   {
-    "title": "Adders, Sequential Circuits",
+    "title": "ELF",
     "videos": [
-      "yHmgaxE8ATk",
-      "PjktT-Mjzow",
-      "Q0f1MgaQwzI",
-      "q3cbgQmdf4I"
+      {
+        "name": "1. Overview",
+        "id": "BXjOC945w4w"
+      },
+      {
+        "name": "2. Segments, sections, and headers",
+        "id": "5-d8snK8RaA"
+      },
+      {
+        "name": "3. Using readelf",
+        "id": "enQHBGns7aA"
+      },
+      {
+        "name": "4. Reading ELF programmatically",
+        "id": "N1bT_DdgZfU"
+      },
+      {
+        "name": "5. Offsets vs. addresses",
+        "id": "2CmAMD4l_aQ"
+      },
+      {
+        "name": "6. Objects and linking",
+        "id": "JmMbNATm8Gs"
+      },
+      {
+        "name": "7. Printing section names",
+        "id": "Vx0qeTJgsTQ"
+      },
+      {
+        "name": "8. Position-independent code",
+        "id": "H4QutJQjuDE"
+      },
+      {
+        "name": "9. Implementing PIC variables",
+        "id": "DdTtuB1Itmc"
+      },
+      {
+        "name": "0. Implementing PIC functions",
+        "id": "RJ7duJg6VGs"
+      },
+      {
+        "name": "1. Inspecting the symbol table",
+        "id": "qsZc8Y1HCmw"
+      },
+      {
+        "name": "2. Inspecting relocations",
+        "id": "6ssYRGxWaSQ"
+      },
+      {
+        "name": "3. Machine code section",
+        "id": "fqEx3rFecTE"
+      }
     ]
   },
   {
-    "title": "Sequential Circuits, FSMs",
+    "title": "Processes",
     "videos": [
-      "aKpK4laMpfk",
-      "2qlz4_p7G9w",
-      "lvB5yeYHW8w",
-      "XqDuVaySC5s"
+      {
+        "name": "1. Control flow and kernel",
+        "id": "DLjmmBekJn4"
+      },
+      {
+        "name": "2. Exception handling",
+        "id": "THzCJIzVKb4"
+      },
+      {
+        "name": "3. Kinds of exceptions",
+        "id": "Oq_NIQdEDCw"
+      },
+      {
+        "name": "4. The process abstraction",
+        "id": "AETVcVmvPp4"
+      },
+      {
+        "name": "5. Concurrency",
+        "id": "C3Q9JlMSovQ"
+      },
+      {
+        "name": "6. top and ps",
+        "id": "BKJAdPU1fw4"
+      },
+      {
+        "name": "7. Process control and kill",
+        "id": "4NGpppDOCTs"
+      },
+      {
+        "name": "8. getpid",
+        "id": "frD1LH7PY-0"
+      },
+      {
+        "name": "9. System calls and error checking",
+        "id": "LpU0pyEQwnQ"
+      },
+      {
+        "name": "0. Creating processes with fork",
+        "id": "WUl_IpqCl70"
+      },
+      {
+        "name": "1. Process graphs",
+        "id": "FwEHEbqn2pU"
+      }
     ]
   },
   {
-    "title": "CPU Organization and Design",
+    "title": "More on Processes",
     "videos": [
-      "9ZJgY17aRJA",
-      "w3Eh6p_HNYU",
-      "MRSiXQlv0l8"
+      {
+        "name": "2. Waiting on a process",
+        "id": "tgiV_VTUpuo"
+      },
+      {
+        "name": "3. PID recycling and reaping",
+        "id": "DLJUwSjBapA"
+      },
+      {
+        "name": "4. Orphan processes and init",
+        "id": "T0R40UiBOgY"
+      },
+      {
+        "name": "5. Waiting on multiple child processes",
+        "id": "TSq0GJtsNo0"
+      },
+      {
+        "name": "6. Running a program with execve",
+        "id": "OfTmwj14Xr4"
+      },
+      {
+        "name": "7. Runing a program as a new process",
+        "id": "Z0lubR4I7jQ"
+      }
     ]
   },
   {
-    "title": "Pipelining",
+    "title": "File Descriptors",
     "videos": [
-      "DbEQyEJoTv8",
-      "JkzNIUmP_CQ",
-      "VIRIKFYEsh8"
+      {
+        "name": "1. Overview",
+        "id": "JvswqzSk0lc"
+      },
+      {
+        "name": "2. Example of reading a file",
+        "id": "2IafYGOC1F4"
+      },
+      {
+        "name": "3. Pipes",
+        "id": "Yn8ThRjQexI"
+      },
+      {
+        "name": "4. Pipes and EOF",
+        "id": "7BvTMp7mdj0"
+      },
+      {
+        "name": "5. Pipes and write blocking",
+        "id": "PTsI9M9qqFE"
+      },
+      {
+        "name": "6. Standard input, output, and error",
+        "id": "fwoIwkA1vOA"
+      },
+      {
+        "name": "7. Redirecting via dup2",
+        "id": "YsFAz6gBWy0"
+      },
+      {
+        "name": "8. Constructing pipelines",
+        "id": "3vbdk1vRlTw"
+      },
+      {
+        "name": "9. Unix vs. Standard C",
+        "id": "R8LwcUnwQB0"
+      },
+      {
+        "name": "0. Output buffer modes",
+        "id": "W6NTALJsdiQ"
+      }
     ]
   },
   {
-    "title": "Pipelining Hazards",
+    "title": "Signals",
     "videos": [
-      "pWdNIikDMyQ"
+      {
+        "name": "1. Polling with WNOHANG",
+        "id": "lW-gGoKM2Bw"
+      },
+      {
+        "name": "2. Introduction to signals",
+        "id": "0eF2ngHfiUc"
+      },
+      {
+        "name": "3. SIGCHLD example",
+        "id": "DEGJDRs-z54"
+      },
+      {
+        "name": "4. Process signal state",
+        "id": "6f12TaG74wQ"
+      },
+      {
+        "name": "5. Changing the signal mask",
+        "id": "mRdtpAMBfgY"
+      },
+      {
+        "name": "6. Signal-handling effects and volatile",
+        "id": "bcXN58j444M"
+      },
+      {
+        "name": "7. Signal handling as concurrency",
+        "id": "UvPkjZp1d8I"
+      },
+      {
+        "name": "8. Async-signal-safe",
+        "id": "FrO5uhGEDwA"
+      },
+      {
+        "name": "9. Signal handling and errno",
+        "id": "yQVcbjpOS7Y"
+      },
+      {
+        "name": "0. Guidelines for safe signal handlers",
+        "id": "aOH6N0zK7BE"
+      },
+      {
+        "name": "1. Waiting for a signal with sigsuspend",
+        "id": "l1vg0LkwNOY"
+      },
+      {
+        "name": "2. Stopped processes",
+        "id": "j3kpytyCdo0"
+      },
+      {
+        "name": "3. Process groups",
+        "id": "6cRgedgBud8"
+      }
     ]
   },
   {
-    "title": "More on Pipelining",
+    "title": "Virtual Memory",
     "videos": [
-      "k3osCp8ppiE",
-      "6Z0eIaL7a0k"
+      {
+        "name": "1. Virtual and physical addresses",
+        "id": "Aruo4c_kG8I"
+      },
+      {
+        "name": "2. Linux process layout",
+        "id": "BCA2JKMNhV4"
+      },
+      {
+        "name": "3. Memory as a cache for disk",
+        "id": "PmKhER6rgzg"
+      },
+      {
+        "name": "4. Address translation",
+        "id": "BOVtPpOUN6M"
+      },
+      {
+        "name": "5. Page hits, page faults, and the TLB",
+        "id": "SQSrp8ZlG6w"
+      },
+      {
+        "name": "6. Mapped, writable, and executable pages",
+        "id": "MPxNcPy3tLA"
+      },
+      {
+        "name": "7. Demonstrating page permissions",
+        "id": "YbGT4S6r1v0"
+      },
+      {
+        "name": "8. mmap",
+        "id": "Ph04-sLCT2I"
+      },
+      {
+        "name": "Virtual memory 8b: munmap",
+        "id": "ti32v9Bxt6w"
+      },
+      {
+        "name": "9. mprotect and SIGSEGV",
+        "id": "9H0QTSKvvto"
+      },
+      {
+        "name": "0. Shared libraries",
+        "id": "U23M-hWbIuk"
+      },
+      {
+        "name": "1. fork, copy-on-write, and MAP_SHARED",
+        "id": "ha2CdDQ9Atk"
+      }
     ]
   },
   {
-    "title": "Control Hazards",
+    "title": "Memory Allocation",
     "videos": [
-      "1XkrzppND3s",
-      "lY8Wa6smqcM",
-      "xME06CgwQFU",
-      "Zeuc2PiXH8k",
-      "NW9iMs-Tycc"
+      {
+        "name": "1. Allocation via syscalls",
+        "id": "T7wXKBADeXI"
+      },
+      {
+        "name": "2. Allocation via the C library",
+        "id": "bAw2REUvw3w"
+      },
+      {
+        "name": "3. Allocator constraints and goals",
+        "id": "0tbrlsDi1-Q"
+      },
+      {
+        "name": "4. Key allocator questions",
+        "id": "ZqWT19ZMxYw"
+      },
+      {
+        "name": "5. Naive sbrk allocator",
+        "id": "8A6b7xnHRFQ"
+      },
+      {
+        "name": "6. “Word” convention for diagrams",
+        "id": "pX7c5EK1tfw"
+      },
+      {
+        "name": "7. Allocating pages in chunks",
+        "id": "GVTpzBeBCKE"
+      },
+      {
+        "name": "8. Block headers",
+        "id": "HZwIELFYB50"
+      },
+      {
+        "name": "9. Payload and block pointers",
+        "id": "BsgsZmPylRg"
+      },
+      {
+        "name": "0. Implicit free list implementation",
+        "id": "moU4dALuKic"
+      },
+      {
+        "name": "1. Coalescing unallocated blocks",
+        "id": "jNzQBKDexdM"
+      },
+      {
+        "name": "2. Payload and footer pointers",
+        "id": "RoZPT34UUBU"
+      },
+      {
+        "name": "3. Coalescing implementation",
+        "id": "QWqvxk5vM4w"
+      }
     ]
   },
   {
-    "title": "Out-of-order, Cache Hierarchies",
+    "title": "More on Memory Allocation",
     "videos": [
-      "yl9v9dBuzCM",
-      "ToZE8BrWKXQ",
-      "0ZtGX_D_z6U",
-      "Q4xs0tvFpAY",
-      "UHSE6SD6ZO8",
-      "t9SWoNd83bU"
+      {
+        "name": "4. Improving performance and first-fit vs. best-fit",
+        "id": "B7kub_E5t3Q"
+      },
+      {
+        "name": "5. Packing headers to reduce internal fragmentation",
+        "id": "N7Hv0jqJiX0"
+      },
+      {
+        "name": "6. Header/footer sizes and alignment",
+        "id": "VMEYhgmpHfw"
+      },
+      {
+        "name": "7. Avoiding footers in allocated blocks",
+        "id": "dOwS9AYSfpI"
+      },
+      {
+        "name": "8. Explicit free lists",
+        "id": "RfnRrfrr0ro"
+      },
+      {
+        "name": "9. Alternative free-list representations",
+        "id": "69jVT9detWc"
+      },
+      {
+        "name": "0. Adapting an allocator to mmap",
+        "id": "pcoIfzAwiis"
+      },
+      {
+        "name": "1. Segregated allocation",
+        "id": "5pIag1omXyA"
+      }
     ]
   },
   {
-    "title": "Cache Hierarchies",
+    "title": "Garbage Collection",
     "videos": [
-      "gIUMKkVA-Jw",
-      "uP0lE8XyeLo",
-      "ZRyOegzrjKs",
-      "6zPFctwwgjA"
+      {
+        "name": "1. Introduction",
+        "id": "YWzlNbXJxzs"
+      },
+      {
+        "name": "2. Reference counting",
+        "id": "5KAhCdj1iPI"
+      },
+      {
+        "name": "3. Reference counting in pictures",
+        "id": "lyfbgirW2ak"
+      },
+      {
+        "name": "4. Reference counting implementation",
+        "id": "sbQQTT7MM0o"
+      },
+      {
+        "name": "5. Cycles",
+        "id": "WhXUOKEPLBc"
+      },
+      {
+        "name": "6. Garbage collection",
+        "id": "u2-0aSHCrgU"
+      },
+      {
+        "name": "7. Garbage collection in pictures",
+        "id": "dfU7aN3WZzY"
+      },
+      {
+        "name": "8. Garbage collection implementation",
+        "id": "RPiKgv3tiwA"
+      },
+      {
+        "name": "9. Conservative garbage collection",
+        "id": "S-kStGbKGHQ"
+      },
+      {
+        "name": "0. Conservative garbage collection implementation",
+        "id": "0_aq7juMEUg"
+      },
+      {
+        "name": "1. Two-space copying collector",
+        "id": "cbUjUb_tFp4"
+      },
+      {
+        "name": "2. Two-space collection implementation",
+        "id": "wjGFRbtOHSI"
+      },
+      {
+        "name": "3. Tags",
+        "id": "6lExgWE0Bgo"
+      },
+      {
+        "name": "4. Miniature two-space example with tags",
+        "id": "rHazkm9PPMQ"
+      },
+      {
+        "name": "5. Further GC topics",
+        "id": "O_Gsb2WtMgI"
+      }
     ]
   },
   {
-    "title": "Memory Hierarchies",
+    "title": "Networking",
     "videos": [
-      "FjXxQPh8IdU",
-      "JYyW4yQZu_8",
-      "2FNcxAA_kBA"
+      {
+        "name": "1. Overview of TCP & UDP",
+        "id": "KFyuGneWhJ4"
+      },
+      {
+        "name": "2. IP",
+        "id": "qk_aYAFDSYU"
+      },
+      {
+        "name": "3. Protocol layers",
+        "id": "Q4bbDR6zusY"
+      },
+      {
+        "name": "4. Naming and DNS",
+        "id": "V1ktM51APEs"
+      },
+      {
+        "name": "5. More naming issues",
+        "id": "P7cBNKntlIg"
+      },
+      {
+        "name": "6. getaddrinfo",
+        "id": "KbnJFfE4zo0"
+      },
+      {
+        "name": "7. Implementing hostinfo",
+        "id": "Uh74UZJX_8w"
+      },
+      {
+        "name": "8. UDP & TCP as layers over IP",
+        "id": "ld5XlXxBw2M"
+      },
+      {
+        "name": "9. Sockets",
+        "id": "PpHMwDUWGNA"
+      },
+      {
+        "name": "0. UDP lifecycle",
+        "id": "bIaTDfZ5ti4"
+      },
+      {
+        "name": "1. UDP example",
+        "id": "xymiSjT-djM"
+      },
+      {
+        "name": "2. Choosing a server network interface",
+        "id": "JIHcej3K4qI"
+      },
+      {
+        "name": "3. More UDP",
+        "id": "QjCDZCkpW4c"
+      }
     ]
   },
   {
-    "title": "Virtual Memory, Multiprocessors",
+    "title": "More Networking",
     "videos": [
-      "JnDxmjxPRIs",
-      "RSkh3QJCd94"
+      {
+        "name": "4. TCP",
+        "id": "t3QeiP5Bd1k"
+      },
+      {
+        "name": "5. TCP lifecycle",
+        "id": "1jnWgrwlyTM"
+      },
+      {
+        "name": "5. TCP basic example",
+        "id": "S_nf54gVHxs"
+      },
+      {
+        "name": "6. TCP improved examples",
+        "id": "bQn2pyhIaxk"
+      },
+      {
+        "name": "7. Echo server",
+        "id": "3sqlPQoTgCo"
+      },
+      {
+        "name": "8. HTTP and URLs",
+        "id": "Q_19BccTzw4"
+      },
+      {
+        "name": "9. Encoding in URLs",
+        "id": "AF2UXqluJxE"
+      },
+      {
+        "name": "0. HTTP client side",
+        "id": "Pj044fE-dDA"
+      },
+      {
+        "name": "1. HTTP server side",
+        "id": "47yHn0RuvWA"
+      },
+      {
+        "name": "2. HTTP POST and headers",
+        "id": "wdutlNdO0qE"
+      },
+      {
+        "name": "3. The TINY web server",
+        "id": "esN8VLXSjc8"
+      },
+      {
+        "name": "4. TINY web server implementation",
+        "id": "rkZzOZfV9ok"
+      }
     ]
   },
   {
-    "title": "Multiprocessor Systems",
+    "title": "Concurrency",
     "videos": [
-      "wSCDO7yNWiA",
-      "bWJkJGtagAc",
-      "CgfZxS-DRXw"
+      {
+        "name": "1. Making the echo server concurrent",
+        "id": "d5PAlDx3EUg"
+      },
+      {
+        "name": "2. Processes via fork",
+        "id": "nMcq71T-Zjs"
+      },
+      {
+        "name": "3. Running and stressing a concurrent server",
+        "id": "1Jm1N2VBcTI"
+      },
+      {
+        "name": "4. Processes and cooperation",
+        "id": "cswKaS7MWSw"
+      },
+      {
+        "name": "5. Threads",
+        "id": "Nwh0mcc9PBw"
+      },
+      {
+        "name": "6. Thread example",
+        "id": "aBHcwDz9zak"
+      },
+      {
+        "name": "7. Waiting for a thread to complete",
+        "id": "Pf9JA11q02M"
+      },
+      {
+        "name": "8. Threads as peers",
+        "id": "pU3z1pg_2RA"
+      },
+      {
+        "name": "9. Detaching a thread",
+        "id": "m9K5QKEquyo"
+      },
+      {
+        "name": "0. Concurrent echo with threads",
+        "id": "m2rrI5wdX0U"
+      },
+      {
+        "name": "1. Multiplexing I/O with select",
+        "id": "faaSHiblXuI"
+      },
+      {
+        "name": "2. Concurrent echo with events",
+        "id": "ztISP_jDfr0"
+      },
+      {
+        "name": "3. Recap of concurrency options",
+        "id": "N80jEpuYC9U"
+      }
     ]
   },
   {
-    "title": "More Multiprocessors",
+    "title": "Synchronization",
     "videos": [
-      "lAMwPcUPqIM",
-      "ErjIUmdp4Yo",
-      "7gCzwhHlAeY"
-    ]
-  },
-  {
-    "title": "Multi-core processors",
-    "videos": [
-      "kh-SZ3M3jLk",
-      "ov_LAL31LBE",
-      "FcS_kQOIykU"
+      {
+        "name": "1. Counting in the echo server",
+        "id": "LWsUoGzA_zE"
+      },
+      {
+        "name": "2. Non-atomic read–update–write",
+        "id": "dE5Uyw0nrTQ"
+      },
+      {
+        "name": "3. Multiple processing cores",
+        "id": "nLU51fdWTeI"
+      },
+      {
+        "name": "4. Problem summary and solutions",
+        "id": "JA6aw7du1dU"
+      },
+      {
+        "name": "5. Compare and swap",
+        "id": "1U0Ac5omSKU"
+      },
+      {
+        "name": "6. Locks",
+        "id": "MxBRXVEAFVE"
+      },
+      {
+        "name": "7. Example lock APIs",
+        "id": "8oc_GnEvnjk"
+      },
+      {
+        "name": "8. Semaphore API and example",
+        "id": "lxLZyjJn8hQ"
+      },
+      {
+        "name": "9. Echo counter with semaphores",
+        "id": "A8kS6XlVVmU"
+      },
+      {
+        "name": "0. Per-object semaphores",
+        "id": "3RqDKrEpAYg"
+      },
+      {
+        "name": "1. Thread-safe queue design",
+        "id": "tiXDFeAX_oQ"
+      },
+      {
+        "name": "2. Echo server with work queue",
+        "id": "4Fn_Cqpi8sk"
+      },
+      {
+        "name": "3. Thread-safe library functions",
+        "id": "iOL63Rzeacc"
+      },
+      {
+        "name": "4. Concurrency vs. parallelism",
+        "id": "oW6jq11lrp8"
+      }
     ]
   }
 ]

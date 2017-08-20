@@ -1,40 +1,31 @@
 /*-=-=-=-=-
- Run on http://www.cs.utah.edu/~rajeev/cs3810/ to generate videos.json
+ Run on https://www.eng.utah.edu/~cs4400/c_representation.html to generate
+ one section for videos.json
 =-=-=-=-=-*/
 
-var videos = [];
+var links = document.querySelectorAll('.main li a');
+links = Array.prototype.slice.call(links); // Convert NodeList to Array
+var section = {
+  title: document.querySelector('h4').innerText.match(/: (.*)/)[1],
+  videos: []
+};
 
-for (var i = 0; i < rows.length; i++) {
-  var cells = rows[i].querySelectorAll('td');
-  if (cells.length == 0) {
-    continue;
+links.map(function(link){
+  if(/youtube/.test(link.href)){
+    var name = link.innerText;
+
+    // Only use title if video link starts with abbreviated section title
+    try {
+      name = name.replace(/^.*(\d+): (.*)/, "\$1. \$2");
+    } catch(e){};
+
+    var id = link.href.match(/v=(.*)/)[1];
+
+    section.videos.push({
+      name: name,
+      id: id
+    });
   }
+});
 
-  var title = cells[1].innerText;
-  // Trim off trailing '.'
-  if(title[title.length - 1] == "."){
-    title = title.substring(0, title.length - 1);
-  }
-
-  var vid_links = cells[4].querySelectorAll('a');
-  if (vid_links.length == 0) {
-    continue;
-  }
-
-  var group = {
-    title: title,
-    videos: []
-  };
-
-  for (var j = 0; j < vid_links.length; j++) {
-    if (vid_links[j].innerText.indexOf('Note') != -1) {
-      continue;
-    }
-    var id = vid_links[j].href.split("/").pop();
-    group.videos.push(id);
-  }
-
-  videos.push(group);
-}
-
-JSON.stringify(videos, null, 2);
+JSON.stringify(section, null, 2);
