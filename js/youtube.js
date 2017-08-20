@@ -66,7 +66,7 @@ function getAllVideos(data){
   var videos = [];
   for (var i = 0; i < data.length; i++) {
     for (var j = 0; j < data[i].videos.length; j++) {
-      videos.push(data[i].videos[j]);
+      videos.push(data[i].videos[j].id);
     }
   }
   return videos;

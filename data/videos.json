@@ -3,64 +3,130 @@
     "title": "Introduction",
     "videos": [
       {
-        "name": "1 Compiling and running",
+        "name": "Command-line arguments",
+        "id": "XcHGLiUU5GM"
+      }
+    ]
+  },
+  {
+    "title": "C, Numbers, and Data Representation",
+    "videos": [
+      {
+        "name": "1. Compiling and running",
         "id": "0UDUEWmHmTg"
       },
       {
-        "name": "2 Addresses",
+        "name": "2. Addresses",
         "id": "6F6ko6qqU08"
       },
       {
-        "name": "3 Pointers",
+        "name": "3. Pointers",
         "id": "ml77nxS62_I"
       },
       {
-        "name": "4 Arrays",
+        "name": "4. Arrays",
         "id": "Ccz7W3Ou2ns"
       },
       {
-        "name": "5 Strings",
+        "name": "5. Strings",
         "id": "AZbcSCUK1iI"
       },
       {
-        "name": "6 Pointer arithmetic",
+        "name": "6. Pointer arithmetic",
         "id": "uxV6Qq456oU"
       },
       {
-        "name": "7 for loops",
+        "name": "7. for loops",
         "id": "10O1kdiMaLo"
       },
       {
-        "name": "1 Integers",
+        "name": "1. Integers",
         "id": "X-gi0L5TpXc"
       },
       {
-        "name": "2 Logical and bitwise operations",
+        "name": "2. Logical and bitwise operations",
         "id": "2Qb6pVHZP3M"
       },
       {
-        "name": "3 Overflow and coercions",
+        "name": "3. Overflow and coercions",
         "id": "EI5PjMHzONM"
       },
       {
-        "name": "4 Floating point",
+        "name": "4. Floating point",
         "id": "9P1O9uT-jfU"
       },
       {
-        "name": "5 Floating-point decoding examples",
+        "name": "5. Floating-point decoding examples",
         "id": "YBSRTwtyuks"
       },
       {
-        "name": "6 Casts and strings",
+        "name": "6. Casts and strings",
         "id": "sSFoHdJNtPo"
       },
       {
-        "name": "7 Integer sizes in practice",
+        "name": "7. Integer sizes in practice",
         "id": "jIyN05sGEPk"
       },
       {
-        "name": "8 Number and pointer pitfalls",
+        "name": "8. Number and pointer pitfalls",
         "id": "oSLvPcexgxc"
+      }
+    ]
+  },
+  {
+    "title": "Machine Model: Instruction Set Architecture",
+    "videos": [
+      {
+        "name": "Assembly and machine code",
+        "id": "MBYxnzE0WZk"
+      },
+      {
+        "name": "History",
+        "id": "uF7U2KNE2YE"
+      },
+      {
+        "name": "Machine model",
+        "id": "U6Hj75jyZM4"
+      },
+      {
+        "name": "Compile, assemble, disassemble",
+        "id": "chl9sPbAi7w"
+      },
+      {
+        "name": "Link",
+        "id": "9ivRoX-458I"
+      },
+      {
+        "name": "Operand and register sizes",
+        "id": "-oACD9ucgxY"
+      },
+      {
+        "name": "Operand forms",
+        "id": "DCfciMwHU7k"
+      },
+      {
+        "name": "Practice decoding operands",
+        "id": "Wo_QXCcOnz4"
+      },
+      {
+        "name": "Move instructions",
+        "id": "fRfb1DezDf8"
+      },
+      {
+        "name": "Example using move instructions",
+        "id": "oQ_afThEBoE"
+      },
+      {
+        "name": "Arithmetic instructions",
+        "id": "r7ebrQzqPRc"
+      },
+      {
+        "name": "Example using arithmetic instructions",
+        "id": "nIIXJqPeDJk"
+      },
+      {
+        "name": "Reading ISA manuals",
+        "id": "oe7tDlBaYcw"
       }
     ]
   }
