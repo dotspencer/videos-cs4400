@@ -18,12 +18,11 @@ var list = {
       group.appendChild(title);
 
       // Create all video links
-      for (var j = 0; j < vids.length; j++) {
-        var text = "Part: " + (j + 1);
-        var id = vids[j];
-        var link = VideoLink(text, id);
+
+      vids.map(function(vid){
+        var link = VideoLink(vid.name, vid.id);
         group.appendChild(link);
-      }
+      });
       playlist.appendChild(group);
     }
   },

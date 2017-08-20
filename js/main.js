@@ -1,16 +1,16 @@
-var el = require('./elements.js');
-var list = require('./playlist.js');
+var elements = require('./elements.js');
+var playlist = require('./playlist.js');
 var yt = require('./youtube.js');
 
 // Requesting videos.json and loading into data[]
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function(){
   if(this.readyState == 4 && this.status == 200){
-    el.data = JSON.parse(this.responseText);
+    elements.data = JSON.parse(this.responseText);
 
     // Print out all groups and videos from json response
-    list.print(el.data, el.playlist);
-    list.closeAllGroups();
+    playlist.print(elements.data, elements.playlist);
+    playlist.closeAllGroups();
 
     // Request and show video durations
     yt.showDuration();
