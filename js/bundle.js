@@ -88,19 +88,19 @@ module.exports = elements;
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var el = __webpack_require__(0);
-var list = __webpack_require__(2);
+var elements = __webpack_require__(0);
+var playlist = __webpack_require__(2);
 var yt = __webpack_require__(3);
 
 // Requesting videos.json and loading into data[]
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function(){
   if(this.readyState == 4 && this.status == 200){
-    el.data = JSON.parse(this.responseText);
+    elements.data = JSON.parse(this.responseText);
 
     // Print out all groups and videos from json response
-    list.print(el.data, el.playlist);
-    list.closeAllGroups();
+    playlist.print(elements.data, elements.playlist);
+    playlist.closeAllGroups();
 
     // Request and show video durations
     yt.showDuration();
@@ -140,12 +140,11 @@ var list = {
       group.appendChild(title);
 
       // Create all video links
-      for (var j = 0; j < vids.length; j++) {
-        var text = "Part: " + (j + 1);
-        var id = vids[j];
-        var link = VideoLink(text, id);
+
+      vids.map(function(vid){
+        var link = VideoLink(vid.name, vid.id);
         group.appendChild(link);
-      }
+      });
       playlist.appendChild(group);
     }
   },
@@ -176,10 +175,14 @@ function Title(text){
 function VideoLink(text, id){
   var link = document.createElement('div');
   link.classList.add('vid-link');
-  link.innerText = text;
-  link.setAttribute('data-id', id);
 
+  var name = document.createElement('div');
+  name.classList.add('name');
+  name.innerText = text;
+
+  link.setAttribute('data-id', id);
   link.addEventListener('click', selectVideo);
+  link.appendChild(name);
   return link;
 }
 
@@ -285,7 +288,7 @@ function requestDurationGroup(requestGroup){
   p += "&part=contentDetails";
   var url = "https://www.googleapis.com/youtube/v3/videos?id=";
 
-  // Construt request url from each video id
+  // Construct request url from each video id
   for (var i = 0; i < requestGroup.length; i++) {
     url += requestGroup[i] + ",";
   }
@@ -325,7 +328,7 @@ function getAllVideos(data){
   var videos = [];
   for (var i = 0; i < data.length; i++) {
     for (var j = 0; j < data[i].videos.length; j++) {
-      videos.push(data[i].videos[j]);
+      videos.push(data[i].videos[j].id);
     }
   }
   return videos;
@@ -351,7 +354,7 @@ window.onYouTubeIframeAPIReady = () => {
   el.player = new YT.Player('player', {
     height: '390',
     width: '640',
-    videoId: el.data[0].videos[0],
+    videoId: el.data[0].videos[0].id,
     playerVars: {
       // modestbranding: 1,
       rel: 0 // Related videos off
