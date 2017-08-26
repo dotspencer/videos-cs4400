@@ -54,13 +54,28 @@ function VideoLink(text, id){
   var link = document.createElement('div');
   link.classList.add('vid-link');
 
-  var name = document.createElement('div');
-  name.classList.add('name');
-  name.innerText = text;
+  var parts = text.split(':');
+  var linkName = document.createElement('div');
+  linkName.classList.add('name');
+
+  if(parts.length > 1){
+    parts.map(function(part, i){
+      var span = document.createElement('span');
+      span.classList.add('part');
+      var partText = i == 0 ? part + ": " : part;
+      span.innerText = partText;
+      linkName.appendChild(span);
+    });
+
+  } else {
+    var name = document.createElement('div');
+    name.innerText = text;
+    linkName.appendChild(name);
+  }
 
   link.setAttribute('data-id', id);
   link.addEventListener('click', selectVideo);
-  link.appendChild(name);
+  link.appendChild(linkName);
   return link;
 }
 
