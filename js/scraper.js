@@ -13,12 +13,6 @@ var section = {
 links.map(function(link){
   if(/youtube/.test(link.href)){
     var name = link.innerText;
-
-    // Only use title if video link starts with abbreviated section title
-    try {
-      name = name.replace(/^.*(\d+): (.*)/, "\$1. \$2");
-    } catch(e){};
-
     var id = link.href.match(/v=(.*)/)[1];
 
     section.videos.push({
